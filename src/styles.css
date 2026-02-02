@@ -273,17 +273,14 @@ footer a {
   padding: 0;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1025px) {
   body {
     padding: 0 30px;
+    max-width: 1025px;
   }
 
   .container {
     max-width: 1000px;
-  }
-
-  section {
-    max-width: 700px;
   }
 
   header {
@@ -323,12 +320,22 @@ footer a {
     grid-template-columns: 1fr;
   }
 
+  .grid-3-columns {
+    margin-left: 0;
+    grid-gap: 30px;
+  }
+
   .logo {
     display: none;
   }
 
   .embed {
     aspect-ratio: 16/9;
+  }
+
+  .instagram-media {
+    max-width: 100% !important;
+    min-width: auto !important;
   }
 }
 
@@ -338,7 +345,7 @@ footer a {
   }
 
   .container {
-    max-width: 800px;
+    max-width: 400px;
   }
 
   header {
@@ -381,5 +388,10 @@ footer a {
 
   main p {
     font-size: 12px;
+  }
+
+  .instagram {
+    width: 300px;
+    height: auto;
   }
 }
