@@ -277,7 +277,7 @@ footer a {
 @media (max-width: 1025px) {
   body {
     padding: 0 30px;
-    max-width: 1025px;
+    max-width: 1000px;
   }
 
   .container {
