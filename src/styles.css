@@ -60,6 +60,10 @@ section.secondary {
 }
 
 .grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-2-columns-long {
   grid-template-columns: 1.5fr 2fr;
   grid-gap: 40px;
 }
@@ -168,8 +172,13 @@ main p {
 }
 
 .logo {
-  width: auto;
-  height: 200px;
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
 }
 
 .card-body {
@@ -266,7 +275,7 @@ footer a {
   }
 
   .container {
-    max-width: 1024px;
+    max-width: 800px;
   }
 
   section {
@@ -352,5 +361,9 @@ footer a {
 
   main p {
     font-size: 12px;
+  }
+
+  .embed {
+    display: none;
   }
 }
